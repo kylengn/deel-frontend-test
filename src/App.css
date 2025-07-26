@@ -1,0 +1,16 @@
+.app-container {
+  max-width: 24rem;
+  width: 100%;
+}
+
+.app-title {
+  font-size: 1.5rem;
+}
+
+.app-description {
+  margin-bottom: 0.5rem;
+}
+
+.app-selected {
+  margin-top: 1rem;
+}

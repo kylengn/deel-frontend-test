@@ -1,0 +1,45 @@
+.autocomplete-container {
+  position: relative;
+  width: 100%;
+}
+
+.autocomplete-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.autocomplete-listbox {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  max-height: 12rem;
+  overflow-y: auto;
+}
+
+.autocomplete-option {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.autocomplete-option:hover,
+.autocomplete-option[aria-selected="true"] {
+  background-color: #f0f0f0;
+}
+
+.autocomplete-option[aria-disabled="true"] {
+  color: #666;
+  cursor: default;
+}
+
+.autocomplete-option mark {
+  background-color: yellow;
+  font-weight: bold;
+}
